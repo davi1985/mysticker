@@ -1,19 +1,19 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
     height: 64,
-    width: '100%'
+    width: "100%",
   },
   content: {
-    paddingHorizontal: 24
+    paddingHorizontal: 24,
   },
   title: {
-    fontWeight: 'bold',
-    textTransform: 'capitalize',
+    fontWeight: "bold",
+    textTransform: "uppercase",
     fontSize: 14,
-    color: '#FFF',
+    color: "#FFF",
     marginLeft: 24,
-    marginBottom: 7
-  }
+    marginBottom: 7,
+  },
 });
